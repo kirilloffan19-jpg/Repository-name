@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.image-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image-grid img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
